@@ -1,0 +1,21 @@
+@import "./base/mixins.scss";
+@import "./base/fonts.scss";
+body {
+  background-color: green;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/header.png");
+  background-size: 50px 50px;
+  @media screen and (max-width: 500px) {
+    background-color: blue;
+  }
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 10em;
+  color: yellow;
+
+  @media screen and (max-width: 500px) {
+    font-size: 10px;
+  }
+}
